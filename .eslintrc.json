@@ -1,13 +1,18 @@
 {
+  "env": {
+    "jest": true,
+    "node": true
+  },
+
   "settings": {
-    "react":{
-      "version":"detect"
+    "react": {
+      "version": "detect"
     }
   },
 
   "extends": "next/core-web-vitals",
-  
-  "rules":{
+
+  "rules": {
     "react/prop-types": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off"
   }
