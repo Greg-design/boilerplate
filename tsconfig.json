@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "src", // pra não precisar usar pontos e barras nos imports
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
